@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        <script src="scripts/jquery-3.6.0.min.js"></script>
+        <title>Tic-Tac-Toe</title>
+        
+    </head>
+    <body>
+        <div id="gametable">
+            <div id="table-header">
+                <p>TIC TAC TOE</p>
+                <p id="score">ROUND : 0 || X:0 - 0:O</p>
+            </div>
+            <div id=tbl>
+                <table class="table">
+                    <tr>
+                        <button id="zz" class="cell"></button>
+                        <button id="zo" class="cell"></button>
+                        <button id="zt" class="cell"></button>
+                    </tr>
+                    <tr>
+                        <button id="oz" class="cell"></button>
+                        <button id="oo" class="cell"></button>
+                        <button id="ot" class="cell"></button>
+                    </tr>
+                    <tr>
+                        <button id="tz" class="cell"></button>
+                        <button id="to" class="cell"></button>
+                        <button id="tt" class="cell"></button>
+                    </tr>
+                </table>
+            </div>
+            <div id="bottom">
+                <p id="turn">LET'S START</p>
+                <button id="newTour" class="btn btn-success">New Tour</button>
+                <button id="newGame"class="btn btn-warning">New Game</button>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
